@@ -1,0 +1,5 @@
+tests/tmp
+tests/coveralls.json
+.phpunit.result.cache
+*.log
+*.ser

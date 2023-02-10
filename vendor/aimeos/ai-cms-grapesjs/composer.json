@@ -1,0 +1,34 @@
+{
+	"name": "aimeos/ai-cms-grapesjs",
+	"description": "Aimeos GrapesJS CMS extension",
+	"keywords": ["aimeos", "extension", "cms", "grapesjs"],
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0",
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": "~7.1||~8.0",
+		"aimeos/aimeos-core": "2022.10.*",
+		"aimeos/ai-admin-jqadm": "2022.10.*",
+		"aimeos/ai-admin-jsonadm": "2022.10.*",
+		"aimeos/ai-client-html": "2022.10.*",
+		"aimeos/ai-client-jsonapi": "2022.10.*",
+		"aimeos/ai-controller-frontend": "2022.10.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aimeos\\": "src"
+		},
+		"classmap": [
+			"src"
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Aimeos\\": "tests"
+		},
+		"classmap": [
+			"tests"
+		]
+	}
+}

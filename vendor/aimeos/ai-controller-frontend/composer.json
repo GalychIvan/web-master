@@ -1,0 +1,39 @@
+{
+	"name": "aimeos/ai-controller-frontend",
+	"description": "Aimeos business controller logic for frontend",
+	"keywords": ["aimeos", "extension", "controller", "frontend"],
+	"homepage": "https://aimeos.org/",
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0-or-later",
+	"support": {
+		"source": "https://github.com/aimeos/ai-controller-frontend",
+		"issues": "https://github.com/aimeos/ai-controller-frontend/issues",
+		"forum": "https://aimeos.org/help",
+		"wiki": "https://aimeos.org/docs"
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": "~7.1||~8.0",
+		"aimeos/aimeos-core": "2022.10.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~7.0||~8.0||~9.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aimeos\\": "src"
+		},
+		"classmap": [
+			"src"
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Aimeos\\": "tests"
+		},
+		"classmap": [
+			"tests"
+		]
+	}
+}
